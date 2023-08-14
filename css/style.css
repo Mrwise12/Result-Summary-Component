@@ -1,0 +1,140 @@
+*{
+  font-size: 20px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  
+}
+ .main-cont {
+  background :hsl(0, 0%, 100%);
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  width: 700px;
+  height: 450px;
+} 
+
+.cont-1 {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  height: 450px;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+
+.cont-2{
+  height: 450px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius:25px ;
+
+}
+
+.your-result{
+  color: antiquewhite;
+  text-align: center;
+
+font-size: 25px;
+padding-bottom: 25px;
+
+}
+
+.inner-cont{
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+  height: 170px;
+  width: 170px;
+  margin-top: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#num1{
+  font-size: 60px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-bottom: -10px;
+   
+}
+
+#num2 {
+  color: antiquewhite;
+  font-size: 12px;
+  
+}
+
+.p1{
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.p2{
+  color: antiquewhite;
+  text-align: center;
+  font-size: 20px;
+}
+
+.summary{
+  font-size:25px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
+.reaction{
+  background:hsla(0, 100%, 67%, 0.096);
+  border-radius: 10px;
+  padding: 15px;
+  justify-content: center;
+  position: relative;
+}
+.first{
+  position: absolute;
+  right: 15px;
+} 
+
+.memory{
+  background:hsla(39, 100%, 56%, 0.096);
+  border-radius: 10px;
+  padding: 15px;
+  justify-content: center;
+  position: relative;
+}
+.verbal{
+  background:hsla(166, 100%, 37%, 0.096);
+  border-radius: 10px;
+  padding: 15px;
+  justify-content: center;
+  position: relative;
+}
+
+.visual{
+  background:hsla(234, 85%, 45%, 0.096);
+  border-radius: 10px;
+  padding: 15px;
+  justify-content: center;
+  position: relative;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual{
+  margin-bottom: 10px;
+}
+
+button{
+  border: none;
+  width: 100%;
+ background: hsl(224, 30%, 27%);
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover{
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
